@@ -195,7 +195,7 @@ class DiffUtilCallBack(
 
 - `getChangePayload(oldPosition:Int , newPosition:Int)` : If areItemTheSame return true and areContentsTheSame returns false DiffUtil calls this method to get a payload about the change.
 
-Now make the below changes to the `StudentAdapter**
+Now make the below changes to the `StudentAdapter`
 
 ```
     fun updateData(newStudentList: List<Student>) {
